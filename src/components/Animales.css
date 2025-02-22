@@ -1,0 +1,41 @@
+.animales-container {
+    padding: 20px;
+    background-color: #f7fafc;
+    min-height: 100vh;
+}
+
+.animales-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.animales-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.animales-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.animales-item:hover {
+    background-color: #edf2f7;
+}
+
+.animales-link {
+    color: #3182ce;
+    font-weight: bold;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.animales-link:hover {
+    text-decoration: underline;
+}

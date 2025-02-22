@@ -1,0 +1,163 @@
+/* Archivo: src/styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Botones */
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Fondo de formulario y detalles */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos de texto */
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Lista de animales */
+.animal-list {
+    list-style: none;
+    padding: 0;
+}
+
+.animal-list li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animal-list li a {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.animal-list li a:hover {
+    text-decoration: underline;
+}
+
+.animal-list li span {
+    color: #777;
+}
+
+/* Formulario de edición */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container button {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Archivo: src/styles.css */
+
+/* Estilo específico para AnimalDetalle */
+.animal-detail {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.animal-detail h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.animal-detail p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.animal-detail .animal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.animal-detail .animal-info strong {
+    font-weight: bold;
+}
+
+/* Estilo para los botones de editar y eliminar */
+.animal-detail button {
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+
+.animal-detail .edit-btn {
+    background-color: #28a745;
+}
+
+.animal-detail .delete-btn {
+    background-color: #dc3545;
+}
+
+.animal-detail button:hover {
+    opacity: 0.9;
+}
